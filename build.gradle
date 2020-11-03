@@ -12,7 +12,7 @@ buildscript {
             'pusher'          : '2.0.1',
             'okhttp'          : '4.3.1',
             'retrofit'        : '2.7.1',
-            'nbtapi'          : '2.5.0'
+            'nbtapi'          : '2.6.0'
     ]
 
     ext.deps = [
@@ -55,7 +55,7 @@ plugins {
 
 allprojects {
     group = 'com.enjin.enjincraft'
-    version = '1.0.2'
+    version = '1.0.3'
 
     repositories {
         mavenLocal()
